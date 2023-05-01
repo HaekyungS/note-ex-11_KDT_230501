@@ -1,4 +1,4 @@
-example = [[1,2,3],[4,[5,6],7,[8,9]]]
+example = [["가","나","다"],["라",["마","바"]],"사",["아","자"]]
 def flatten(data):
     output = []
     for item in data:
