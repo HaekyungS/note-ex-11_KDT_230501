@@ -11,7 +11,7 @@
 
 // 우선 예상되는 뉘앙스 그대로 작성해보기
 
-const example=[[1,2,3],[4,[5,6]],7,[8,9]];
+const example=[["가","나","다"],["라",["마","바"]],"사",["아","자"]];
 
 function flatten(data){
   let output=[]
